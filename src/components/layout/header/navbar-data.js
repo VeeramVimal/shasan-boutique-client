@@ -1,0 +1,81 @@
+
+export const navItems = [
+  {
+    id: 1,
+    name: "Home",
+    dataIndex: "Home",
+    link: "home",
+    path: "#",
+    customStyle: "",
+    activeLink: "home",
+  },
+  {
+    id: 2,
+    name: "Cryptocurrency",
+    dataIndex: "Cryptocurrency",
+    link: "cryptocurrency",
+    path: "#",
+    customStyle: "",
+    activeLink: "",
+  },
+  {
+    id: 3,
+    name: "Blockchain",
+    dataIndex: "Blockchain",
+    link: "blockchain",
+    path: "#",
+    customStyle: "",
+    activeLink: "",
+  },
+
+  {
+    id: 4,
+    name: "Tokens",
+    dataIndex: "Tokens",
+    link: "tokens",
+    path: "#",
+    customStyle: "",
+    activeLink: "",
+    sub_nav_items: [
+      {
+        id: 1,
+        name: "Blockchain-1",
+        dataIndex: "Blockchain-1",
+        link: "blockchain",
+        path: "#",
+        customStyle: "",
+        activeLink: "",
+      },
+      {
+        id: 2,
+        name: "Blockchain-2",
+        dataIndex: "Blockchain-2",
+        link: "blockchain",
+        path: "#",
+        customStyle: "",
+        activeLink: "",
+        sub_nav: [
+          {
+            id: 1,
+            name: "Blockchain-2-1",
+            dataIndex: "Blockchain-2-1",
+            link: "blockchain",
+            path: "#",
+            customStyle: "",
+            activeLink: "",
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Blockchain-3",
+        dataIndex: "Blockchain-3",
+        link: "blockchain",
+        path: "#",
+        customStyle: "",
+        activeLink: "",
+      },
+    ],
+  },
+];
+

@@ -1,0 +1,4 @@
+NEXT_PUBLIC_ENV=development
+
+# localhost url str
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8080/wepapi
